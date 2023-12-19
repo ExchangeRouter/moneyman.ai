@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: MoneyMan.ai
+title: MoneyMan - Business, Career and Everything Money
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Unlock financial success with expert insights. Your go-to destination for top-tier finance and business advice, setting the standard for excellence.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -10,14 +10,20 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: 'Latest'
+    - title: 'News'
       url: '/tags/?tag=news'
+    - title: 'Industry'
+      url: '/tags/?tag=industry'
     - title: 'Finance'
       url: '/tags/?tag=finance'
+    - title: 'Careers'
+      url: '/tags/?tag=careers'
     - title: 'Studies'
       url: '/tags/?tag=studies'
     - title: 'Videos'
       url: '/videos/'
+    - title: 'Contact'
+      url: 'mailto:exmgks@gmail.com'
     # - title: 'Pages'
     #  submenu:
     #  - url: '/about/'
@@ -32,7 +38,7 @@ menu__settings:
 # Hero Settings
 hero:
   enable: true
-  hero__title: Finance, Business and Everything Money.
+  hero__title: Business, Career and Everything Money.
   hero__description: Unlock financial success with expert insights. Your go-to destination for top-tier finance and business advice, setting the standard for excellence.
   hero__image: # You can add hero image. For example '/images/06.jpg'
 
@@ -42,7 +48,7 @@ hero:
 author:
   author__name: Adam Savage
   author__bio: I’m a published content creator, brand copywriter, photographer, and social media content creator and manager. I help brands connect with their customers by developing engaging content that entertains, educates, and offers value to their audience.
-  author__avatar: /images/01-1.jpg
+  author__avatar: /images/02-1.jpg
 
 
 #-------------------------------
@@ -76,8 +82,8 @@ author__section:
   author__section__description: I’m a published content creator, brand copywriter, photographer, and social media content creator and manager. I help brands connect with their customers by developing engaging content that entertains, educates, and offers value to their audience.
   aurhor__section__button__text: More About Me
   aurhor__section__button__link: /about
-  author__section__big__image: /images/100.jpg
-  author__section__small__image: /images/101.jpg
+  author__section__big__image: /images/01-1.jpg
+  author__section__small__image: /images/01-1.jpg
 
 
 #-------------------------------
@@ -114,12 +120,16 @@ footer__menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Contact'
-      url: '/contact/'
-    - title: 'Elements'
-      url: '/elements/'
+    - title: 'News'
+      url: '/tags/?tag=news'
+    - title: 'Industry'
+      url: '/tags/?tag=industry'
+    - title: 'Finance'
+      url: '/tags/?tag=finance'
+    - title: 'Careers'
+      url: '/tags/?tag=careers'
+    - title: 'Studies'
+      url: '/tags/?tag=studies'
 
 
 #-------------------------------
